@@ -1,16 +1,35 @@
 #include <stdio.h>
-#include <pthread.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
 
-void *sensor_task(void *args)
+TaskHandle_t sensor_task_handle;
+
+void sensor_task(void *pvParameters)
 {
-    printf("Sensor task\n");
-    pthread_exit(NULL);
+    while (1)
+    {
+        printf("Sensor task: entry\n");
+        vTaskSuspend(NULL);
+        // ---------
+        vTaskDelay(pdMS_TO_TICKS(2000));
+    }
 }
 
 void app_main(void)
 {
-    pthread_t sid;
+    int count = 0;
     printf("Hello BHEL on ESP32\n");
-    pthread_create(&sid, NULL, sensor_task, NULL);
-    pthread_join(sid, NULL);
+
+    xTaskCreate(sensor_task, "sensor_task", 1024, NULL, 10, &sensor_task_handle);
+
+    while (1)
+    {
+        count++;
+        if (count == 10)
+        {
+            vTaskResume(sensor_task_handle);
+        }
+        printf("Main thread\n");
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
 }
