@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/CMakeFiles/bootloader
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/CMakeFiles/bootloader.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/CMakeFiles/bootloader-complete.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

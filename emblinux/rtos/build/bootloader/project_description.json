@@ -1,0 +1,23 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/maker/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader",
+    "config_file":        "/mahi/demos/bhel/work/bhel/emblinux/rtos/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.1-dev-1498-g2d9e75bf05",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/maker/esp/esp-idf/components/efuse/Kconfig;/home/maker/esp/esp-idf/components/esp_common/Kconfig;/home/maker/esp/esp-idf/components/esp_hw_support/Kconfig;/home/maker/esp/esp-idf/components/esp_system/Kconfig;/home/maker/esp/esp-idf/components/freertos/Kconfig;/home/maker/esp/esp-idf/components/hal/Kconfig;/home/maker/esp/esp-idf/components/log/Kconfig;/home/maker/esp/esp-idf/components/newlib/Kconfig;/home/maker/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/maker/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/maker/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/maker/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/maker/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/maker/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/maker/esp/esp-idf/components/bootloader", "/home/maker/esp/esp-idf/components/bootloader_support", "/home/maker/esp/esp-idf/components/efuse", "/home/maker/esp/esp-idf/components/esp_app_format", "/home/maker/esp/esp-idf/components/esp_common", "/home/maker/esp/esp-idf/components/esp_hw_support", "/home/maker/esp/esp-idf/components/esp_rom", "/home/maker/esp/esp-idf/components/esp_system", "/home/maker/esp/esp-idf/components/esptool_py", "/home/maker/esp/esp-idf/components/freertos", "/home/maker/esp/esp-idf/components/hal", "/home/maker/esp/esp-idf/components/log", "/home/maker/esp/esp-idf/components/bootloader/subproject/main", "/home/maker/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/maker/esp/esp-idf/components/newlib", "/home/maker/esp/esp-idf/components/partition_table", "/home/maker/esp/esp-idf/components/soc", "/home/maker/esp/esp-idf/components/spi_flash", "/home/maker/esp/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}

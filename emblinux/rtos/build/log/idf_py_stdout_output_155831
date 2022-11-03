@@ -1,0 +1,15 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/bhel_rtos.c.obj
+[2/9] Performing build step for 'bootloader'
+[1/1] cd /mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader/esp-idf/esptool_py && /home/maker/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/maker/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /mahi/demos/bhel/work/bhel/emblinux/rtos/build/bootloader/bootloader.bin
+Bootloader binary size 0x66e0 bytes. 0x920 bytes (8%) free.
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable bhel_rtos.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.3
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /mahi/demos/bhel/work/bhel/emblinux/rtos/build/bhel_rtos.bin
+[7/7] cd /mahi/demos/bhel/work/bhel/emblinux/rtos/build/esp-idf/esptool_py && /home/maker/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/maker/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /mahi/demos/bhel/work/bhel/emblinux/rtos/build/partition_table/partition-table.bin /mahi/demos/bhel/work/bhel/emblinux/rtos/build/bhel_rtos.bin
+bhel_rtos.bin binary size 0x2be50 bytes. Smallest app partition is 0x100000 bytes. 0xd41b0 bytes (83%) free.
